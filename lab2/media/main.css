@@ -1,0 +1,13 @@
+.carousel {
+    width: 80%;
+}
+.carousel-item img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+body {
+    background: url("bg-hobby.jpg") no-repeat;
+    background-size: 100%;
+}
