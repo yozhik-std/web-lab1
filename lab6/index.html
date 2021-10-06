@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Форма</title>
+</head>
+<body>
+<style>
+    body {
+        background: url(https://img.freepik.com/free-vector/neon-lights-background-theme_52683-44625.jpg?size=626&ext=jpg) no-repeat;
+        background-size: 100%;
+        color: white;
+        font-weight: bold;
+    }
+</style>
+<div class="row">
+    <div class="col">
+        <input type="text" class="form-control" placeholder="Email address">
+    </div>
+    <div class="col">
+        <input type="text" class="form-control" placeholder="Password">
+
+    </div>
+<div class="col">
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Textarea" rows="3"></textarea>
+</div>
+    <div class="col">
+        <div class="form-group">
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>Select one</option>
+                <option>Ad</option>
+                <option>Friend</option>
+                <option>Flyer</option>
+                <option>TV</option>
+                <option>Blog</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+
+<div class="form">
+    <form action="action_form.php" method="POST">
+        <div class="part1">Обращение: <p><input type="radio" name="browser" value="IE" checked="checked" /> Г-н</p>
+            <p><input type="radio" name="browser" value="IE" checked="checked" /> Г-жа</p></div>
+
+        Имя: <input type="text" name="lastname" value=""><br>
+        Фамилия: <input type="text" name="lastname" value=""><br>
+        Email: <input type="text" name="lastname" value=""><br>
+        Телефон: <input type="text" name="lastname" value=""><br>
+        Пароль: <input type="text" name="lastname" value=""><br>
+        Подтвердите пароль: <input type="text" name="lastname" value=""><br>
+        Страна: <select>
+        <option>Канада</option>
+        <option>Болгария</option>
+        <option>Греция</option>
+        <option>Испания</option>
+        <option>Грузия</option>
+    </select>
+
+        <p><input type="checkbox" name="a" value="Я"> Я согласен с условиями использования</p>
+        <input type="submit" value= "Зарегистрироваться">
+    </form>
+</div>
+</body>
+</html>
