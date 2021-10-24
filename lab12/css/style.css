@@ -1,0 +1,198 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+section, header, footer, nav, div, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #f2f2f2;
+}
+
+header nav {
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #4d4d4d;
+    height: 50px;
+    display: block;
+    position: relative;
+}
+
+header ul a span {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+
+section {
+    float: left;
+    display: block;
+    height: 100%;
+    padding: 75px 0 0 0;
+    margin: 0;
+}
+
+#section-section1 {
+    background: #2c3e50;
+}
+
+#section-section2 {
+    background: #16a085;
+}
+
+#section-section3 {
+    background: #27ae60;
+}
+
+#section-section4 {
+    background: #c0392b;
+}
+
+.horizon-prev, .horizon-next {
+    position: fixed;
+    top: 50%;
+    margin-top: -24px;
+    z-index: 9999;
+}
+
+.horizon-prev {
+    left: 20px;
+}
+
+.horizon-next {
+    right: 20px;
+}
+
+.cat1{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    border: 4px double black;
+}
+
+.cat2{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    border: 4px double black;
+}
+
+.cat3{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    border: 4px double black;
+}
+
+.textcat{
+    position: absolute;
+    top: 600px;
+    left: 350px;
+    font-size: 30px;
+    color: white;
+}
+
+.frog1{
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.frog2{
+    position: relative;
+    left: 600px;
+    bottom: 355px;
+}
+
+.frog3{
+    position: relative;
+    bottom: 759px;
+    left: 1100px;
+}
+
+.textfrog{
+    position: relative;
+    bottom: 700px;
+    left: 440px;
+    font-size: 30px;
+    color: white;
+}
+
+.smex1{
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.smex2{
+    position: relative;
+    left: 600px;
+    bottom: 400px;
+}
+
+.smex3{
+    position: relative;
+    left: 600px;
+    bottom: 350px;
+}
+
+.smex4{
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+}
+
+.textodnogr{
+    position: relative;
+    left: 500px;
+    bottom: 920px;
+    font-size: 30px;
+    color: white;
+}
+
+.gif{
+    position: relative;
+    top:150px;
+    left: 700px;
+}
+
+.ss{
+    position: relative;
+    bottom: 200px;
+    left: 40px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.textspasibo{
+    position: relative;
+    bottom: 320px;
+    left: 470px;
+    font-size: 60px;
+    color: white;
+}

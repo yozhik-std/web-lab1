@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no, shrink-to-fit=no">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="jquery.touchSwipe.js"></script>
+    <script type="text/javascript" src="jquery.horizonScroll.js"></script>
+</head>
+<body>
+<header data-role="header" id="header">
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="#section-section1"><span>Дашка</span></a>
+            </li>
+            <li>
+                <a href="#section-section2"><span>Еще раз Дашка</span></a>
+            </li>
+            <li>
+                <a href="#section-section4"><span>Спасибо</span></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="horizon-prev"><img src="images/l-arrow.png"></div>
+<div class="horizon-next"><img src="images/r-arrow.png"></div>
+
+<section data-role="section" id="section-section1">
+    <div class="cat">
+    <div class="cat1"><img src="CCmlCe-AdWc.jpg" width="300" height="400"></div>
+    <div class="cat2"><img src="dDlKr1A6m_w.jpg" width="300" height="400"></div>
+    <div class="cat3"><img src="iArdTtaL1-0.jpg" width="300" height="400"></div>
+    <span class="textcat">Какая красотка!</span>
+    </div>
+    </section>
+
+<section data-role="section" id="section-section2">
+    <div class="frog">
+        <div class="frog1"><img src="1.jpg" width="300" height="400"></div>
+         <div class="frog2"><img src="tfz6FUXX-8s.jpg" width="300" height="400"></div>
+         <div class="frog3"><img src="WLDrASCtWPw.jpg" width="300" height="400"></div>
+    </div>
+    </section>
+    
+<section data-role="section" id="section-section4">
+     <div class="eee">
+         <div class="gif"><img src="gif.gif"></div>
+         <span class="textspasibo">Спасибо за внимание!</span>
+         <div class="ss"><a href="index12.html">Ссылка на задание</a></div>
+    </div>
+    </section>
+
+<footer data-role="footer" id="footer"></footer>
+
+<script type="text/javascript">
+    // By default, swipe is enabled.
+    $('section').horizon();
+
+    // If you do not want to include another plugin, TouchSwipe, you can set it to false in the default options by passing in the option as false.
+    //$('section').horizon({swipe: false});
+
+    $(document).on('click', '.go-to-2', function () {
+        $(document).horizon('scrollTo', 'section-section2');
+    });
+</script>
+
+</body>
+</html>
