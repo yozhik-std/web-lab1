@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<script>
+            var i = 0;
+            function movie() {
+            eval("document.images[0].src='new" + i + ".jfif';");
+            i++;
+            if (i > 3) i = 0;
+            setTimeout("movie();", 300);
+        }
+</script>
+
+<body onLoad="movie();">
+
+<img id="myImage" src=" alt=""/>
+
+</body>
+
+</html>
